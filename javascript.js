@@ -53,4 +53,5 @@ const clearbtn = document.querySelector("#reset");
 
 clearbtn.addEventListener("click", () => {
     removeGrids();
+    createGrids(16);
 })
